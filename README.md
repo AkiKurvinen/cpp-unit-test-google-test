@@ -14,7 +14,6 @@ $ ctest
 
 ## Result:
 
-Test project C:/Users/akiku/OneDrive/Työpöytä/VisualCode/cpp-unit-test-google-test/build
 Start 1: date_test.is_leap_year
 1/7 Test #1: date_test.is_leap_year ........... Passed 0.12 sec
 Start 2: date_test.not_leap_year
