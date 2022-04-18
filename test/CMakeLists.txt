@@ -14,7 +14,8 @@ add_executable(
     days_between.cpp
     )
 
-target_link_libraries(unit_tests
+target_link_libraries(
+  unit_tests
   PRIVATE
     date_test
     gtest_main

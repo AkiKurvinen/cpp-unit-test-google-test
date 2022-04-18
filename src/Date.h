@@ -18,10 +18,10 @@ public:
 	int get_year(); // returns year
 	int public_leap_year(){
 		 return leap_year();
-	 }
-	 int public_days_between(Date *a_date){
-		 return days_between(*a_date);
-	 }
+	}
+	int public_days_between(Date *a_date){
+		return days_between(*a_date);
+	}
 private:
 	int day;
 	int month;
