@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "Date.h"
 using namespace std;
 // Constructor functions
@@ -168,7 +169,7 @@ const int monthDays[12]
     n2 += countLeapYears(dt2);
 
     // return difference between two counts
-    return (n2 - n1);
+    return (abs(n2 - n1));
 
 }
 
